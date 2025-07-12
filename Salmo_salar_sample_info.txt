@@ -1,0 +1,6 @@
+SampleID	Population	Type	Origin	Latitude	Longitude
+SRR2070512	Chile_Farm	Farmed	Chile	-33.0	-71.0
+SRR2070597	Chile_Farm	Farmed	Chile	-33.0	-71.0
+ERR4244435	Norway_Wild	Wild	Norway	69.968	23.375
+ERR4350100	Norway_Wild	Wild	Norway	69.968	23.375
+
