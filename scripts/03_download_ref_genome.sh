@@ -16,4 +16,3 @@ echo "Uncompressing the downloaded genome file..."
 gunzip -f *.gz
 
 echo "Reference genome downloaded and extracted in $REF_DIR"
-
