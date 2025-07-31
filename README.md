@@ -104,12 +104,12 @@ The repository contains the following shell scripts stored in the `scripts/` fol
 results/
 ├── fastqc_results/                                   # FastQC outputs for raw reads
 ├── trimmed_fastqc_results/                           # FastQC outputs for trimmed reads
-├── vg_analysis_results/                              # Graph and indexing results
-│   ├── reference.vg                                  # Initial variation graph
-│   ├── reference.xg                                  # Indexed version of the graph
-│   ├── reference.pruned.vg                           # Simplified version of the graph
-│   ├── vg_alignments/                                # Alignment results (first 50 alignments per sample)
-│   └── variant_calling_and_processing_results/       # Variant calling and processing outputs from VG
+└── vg_analysis_results/                              # Graph and indexing results
+    ├── reference.vg                                  # Initial variation graph
+    ├── reference.xg                                  # Indexed version of the graph
+    ├── reference.pruned.vg                           # Simplified version of the graph
+    ├── vg_alignments/                                # Alignment results (first 50 alignments per sample)
+    └── variant_calling_and_processing_results/       # Variant calling and processing outputs from VG
         ├── 1_vg_summary.txt                          # Summary of total records and SNPs from variant calling
         ├── 2_salmon_with_pheno.bed                   # Binary genotype data (PLINK .bed format)
         ├── 3_salmon_with_pheno.bim                   # Variant information (chromosome, position, alleles)
