@@ -5,6 +5,10 @@
 #$ -o vg_variant_calling.out
 #$ -e vg_variant_calling.err
 
+# Load conda environment
+source ~/.bashrc
+conda activate salmon_env
+
 # VG Variant Calling and Postprocessing Script
 
 mkdir -p results/variant_calling
