@@ -1,6 +1,6 @@
 #!/bin/bash
-#$ -l h_vmem=8G
-#$ -l h_rt=02:00:00
+#$ -l h_vmem=32G
+#$ -l h_rt=05:00:00
 #$ -cwd
 #$ -o vg_graph_alignment.out
 #$ -e vg_graph_alignment.err
