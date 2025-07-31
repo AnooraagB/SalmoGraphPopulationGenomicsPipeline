@@ -110,13 +110,13 @@ results/
 │   ├── reference.pruned.vg                           # Simplified version of the graph
 │   ├── vg_alignments/                                # Alignment results (first 50 alignments per sample)
 │   └── variant_calling_and_processing_results/       # Variant calling and processing outputs from VG
-|       ├── 1_vg_summary.txt                          # Summary of total records and SNPs from variant calling
-|       ├── 2_salmon_with_pheno.bed                   # Binary genotype data (PLINK .bed format)
-|       ├── 3_salmon_with_pheno.bim                   # Variant information (chromosome, position, alleles)
-|       ├── 4_salmon_with_pheno.fam                   # Sample information for each individual
-|       ├── 5_salmon_with_pheno.log                   # Log file from PLINK containing processing details
-|       ├── 6_salmon_type.pheno                       # Phenotype file mapping individuals to salmon types
-|       └── 7_salmon_populations.txt                  # Population assignment file for each sample
+        ├── 1_vg_summary.txt                          # Summary of total records and SNPs from variant calling
+        ├── 2_salmon_with_pheno.bed                   # Binary genotype data (PLINK .bed format)
+        ├── 3_salmon_with_pheno.bim                   # Variant information (chromosome, position, alleles)
+        ├── 4_salmon_with_pheno.fam                   # Sample information for each individual
+        ├── 5_salmon_with_pheno.log                   # Log file from PLINK containing processing details
+        ├── 6_salmon_type.pheno                       # Phenotype file mapping individuals to salmon types
+        └── 7_salmon_populations.txt                  # Population assignment file for each sample
 ```
 
 ## Future Directions
