@@ -5,6 +5,10 @@
 #$ -o vg_graph_alignment.out
 #$ -e vg_graph_alignment.err
 
+# Load conda environment
+source ~/.bashrc
+conda activate salmon_env
+
 # VG Graph Construction and Alignment Script
 
 echo "Step 1: Creating VG graph from reference..."
