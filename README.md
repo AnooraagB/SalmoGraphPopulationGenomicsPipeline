@@ -65,17 +65,11 @@ Graph-based variant-aware alignment was performed using VG:
 - Indexed and pruned the graph  
 - Mapped reads using `vg map`  
 
-### 7. Variant Calling and Processing (New Addition)
+### 7. Variant Calling and Processing 
 
 - Called variants from VG alignments using `vg call`  
 - Processed and filtered variant calls with BCFtools  
 - Converted variant data into formats suitable for downstream analysis  
-
-### 8. Quantitative Genetic Analysis Using GCTA
-
-- Generated Genetic Relationship Matrix (GRM) from variant data  
-- Performed heritability estimation and principal component analysis  
-- Created Manhattan plots and other visualizations  
 
 ## Sample Information
 
@@ -103,7 +97,6 @@ The repository contains the following shell scripts stored in the `scripts/` fol
 | 05_downsampling_indexing.sh      | Downsample the sample reads to increase efficiency of analysis                                                     |
 | 06_vg_graph_and_alignment        | Build VG graph, prune, index, perform mapping using VG tools                                                       |
 | 07_variant_calling_processing.sh | Call variants from VG alignments and process/filter using BCFtools                                                 |
-| 08_gcta_analysis.sh              | Perform quantitative genetic analysis using GCTA                                                                   |
 
 ### Results Folder Structure
 
